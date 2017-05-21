@@ -13,6 +13,8 @@
 		EC6C439D1DF57D6700889C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6C439B1DF57D6700889C08 /* Main.storyboard */; };
 		EC6C439F1DF57D6700889C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6C439E1DF57D6700889C08 /* Assets.xcassets */; };
 		EC6C43A21DF57D6700889C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6C43A01DF57D6700889C08 /* LaunchScreen.storyboard */; };
+		EC6C43AB1DF57D9900889C08 /* TSAplication.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6C43AA1DF57D9900889C08 /* TSAplication.m */; };
+		EC6C43AE1DF64A2100889C08 /* SubController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6C43AD1DF64A2100889C08 /* SubController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		EC6C439E1DF57D6700889C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC6C43A11DF57D6700889C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC6C43A31DF57D6700889C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6C43A91DF57D9900889C08 /* TSAplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAplication.h; sourceTree = "<group>"; };
+		EC6C43AA1DF57D9900889C08 /* TSAplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAplication.m; sourceTree = "<group>"; };
+		EC6C43AC1DF64A2100889C08 /* SubController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubController.h; sourceTree = "<group>"; };
+		EC6C43AD1DF64A2100889C08 /* SubController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				EC6C43A01DF57D6700889C08 /* LaunchScreen.storyboard */,
 				EC6C43A31DF57D6700889C08 /* Info.plist */,
 				EC6C43921DF57D6700889C08 /* Supporting Files */,
+				EC6C43A91DF57D9900889C08 /* TSAplication.h */,
+				EC6C43AA1DF57D9900889C08 /* TSAplication.m */,
+				EC6C43AC1DF64A2100889C08 /* SubController.h */,
+				EC6C43AD1DF64A2100889C08 /* SubController.m */,
 			);
 			path = TSAFKDemo;
 			sourceTree = "<group>";
@@ -149,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6C43AE1DF64A2100889C08 /* SubController.m in Sources */,
+				EC6C43AB1DF57D9900889C08 /* TSAplication.m in Sources */,
 				EC6C439A1DF57D6700889C08 /* ViewController.m in Sources */,
 				EC6C43971DF57D6700889C08 /* AppDelegate.m in Sources */,
 				EC6C43941DF57D6700889C08 /* main.m in Sources */,
